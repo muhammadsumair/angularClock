@@ -13,7 +13,7 @@ angular.module('angularClock', [])
                     hourNumber: '<?', //hour-number Boolean show or hide.
                     size: '<?' //size of the clock.
             },
-            templateUrl: './clock.html',
+            templateUrl: 'clock.html',
             link: function(scope){
                 //set default values of component.
                 scope.color = scope.color || '#000';
